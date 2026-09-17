@@ -1,0 +1,103 @@
+html {
+	scroll-behavior:smooth;
+} 
+
+body {
+    background-size:cover;
+    font-family: Sriracha;
+    margin: 0;
+}
+
+nav {
+    background: #a0dcff;
+    background: linear-gradient(
+        to right,
+        #53a4d3, #96d7ff, #35a4df
+    );
+    padding:12px 0px;
+}
+
+nav ul img {
+    float:left;
+    background:white;
+    border-radius: 50%;
+    padding:8px;
+}
+
+nav ul img:hover {
+    float:left;
+    background:white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+nav ul {
+	margin:0;
+	list-style-type:none;
+	overflow:hidden;
+	padding:0 50px;
+}
+
+nav ul li {
+	float:right;
+}
+
+nav ul li a {
+    margin:0px 15px;
+	display:block;
+	padding:25px 50px;
+	color:white;
+	text-decoration:none;
+}
+
+nav ul li a:hover {
+    background:white;
+    color:black;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+header p {
+    margin:100px 150px;
+    font-size:120px;
+    font-family: Sriracha;
+    color:lightyellow;
+}
+
+.Add {
+    position:absolute;
+    right:100px;
+    top:250px;
+    backdrop-filter: blur(20px);
+    padding:50px;
+    background:transparent;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px gray;
+    font-size: 20px;
+}
+
+.Add ul {
+    list-style-type: none;
+}
+
+.Add li a {
+    font-size:25px;
+    font-family: "Mali", serif;
+    color:rgb(41, 41, 85);
+    text-decoration: none;
+}
+
+.Add ul {
+    border-radius: 50px;
+}
+
+.Add:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.Add li a:hover {
+    color:rgb(50, 13, 97);
+    font-size: 30px;
+    text-decoration: underline;
+}
+
